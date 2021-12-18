@@ -1,0 +1,283 @@
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #000000;
+    --accent-text-color: #2196F3;
+    --page-text-color: #757575;
+    --background-color: #FFFFFF;
+    --background-color-portfolio: #F5F4FA;
+    --background-color-main: #2F303A;
+}
+
+a {
+text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+li {
+    display: inline-block;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    background-color: var(--background-color);
+    color: var(--page-text-color);
+}
+
+/*Header*/
+.header-logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+/* identical to box height */
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+.header-logo > span {
+    color: var(--accent-text-color);
+}
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+.header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--page-text-color);
+}
+.header-contacts .mail:hover,
+.header-contacts .mail:focus {
+    color: var(--accent-text-color);
+}
+.header-contacts .phone:hover,
+.header-contacts .phone:focus {
+    color: var(--accent-text-color);
+}
+
+.header-list .header-link:hover,
+.header-list .header-link:focus {
+    color: var(--accent-text-color);
+}
+
+/*підсвічування активної сторінки*/
+.header-list .header-link.current {
+    color: var(--accent-text-color);
+}
+
+/*main*/
+.main {
+    position: relative;
+    height: 400px;
+    background-color: var(--background-color-main);
+}
+.main-title {
+    
+width: 1170px;
+height: 101px;
+}
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36em;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--background-color);
+}
+
+.button-primary {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+/* identical to box height, or 187% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--background-color);
+    background-color: var(--accent-text-color);
+}
+
+/*feature*/
+
+.feature-list .text {
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+
+.feature-text {
+    font-weight: 400;
+    line-height: 24px;
+/* or 171% */
+    letter-spacing: 0.03em;
+    color: var(--page-text-color);
+}
+/*directions*/
+.directions {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+/*team*/
+.team-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+/* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+.team-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.18;
+/* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--page-text-color);
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+/*footer*/
+.contacts {
+    background-color: var(--background-color-main);
+}
+/*.contacts-list {
+    display: block;
+}*/
+.contacts-logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+/* identical to box height */
+    letter-spacing: 0.03em;
+    color: var(--background-color);
+}
+.contacts-logo > span{
+    color: var(--accent-text-color);
+}
+.contacts-block {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+/* or 171% */
+    letter-spacing: 0.03em;
+}
+.contacts-mail,
+.contacts-phone {
+    color: rgba(255, 255, 255, 0.6);
+}
+.contacts-address {
+    color: var(--background-color);
+}
+
+.contacts-list .contacts-address:hover,
+.contacts-list .contacts-address:focus {
+    color: var(--accent-text-color);
+}
+.contacts-list .contacts-mail:hover,
+.contacts-list .contacts-mail:focus {
+    color: var(--accent-text-color);
+}
+
+.contacts-list .contacts-phone:hover,
+.contacts-list .contacts-phone:focus {
+    color: var(--accent-text-color);
+}
+.contacts-list > li {
+    display: block;
+}
+/*Portfolio CSS*/
+.portfolio .portfolio-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+/* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+.portfolio .container-subtitle {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+/* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+.portfolio .container-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    /* identical to box height, or 187% */
+    letter-spacing: 0.03em;
+    color: var(--page-text-color);
+}
+.button-main {
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.button-main:hover,
+.button-main:focus {
+    color: var(--background-color);
+    background-color: var(--accent-text-color);
+}
+.button.main {
+    color: var(--primary-text-color);
+    background-color: var(--background-color-portfolio);
+}
+
+.container-subtitle {
+    
+}
+.container-text {
+    color: var(--page-text-color);
+}
+
+.portfolio .portfolio-title,
+.feature .section-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+  }
