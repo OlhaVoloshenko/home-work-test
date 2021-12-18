@@ -1,4 +1,11 @@
 :root {
+    --bg-color-header: #FAFAFA;
+    --bg-color-hero: #F1F1F2;
+    --bg-color-projects: #FFFFFF;
+    --bg-color-accent: #F7941E;
+    --bottom-color-letsgo: #231F20;
+    --color-text: #000000;
+
 }
 
 a {
@@ -12,10 +19,61 @@ li {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
     line-height: 1.5;
     letter-spacing: 0.03em;
-    background-color: var(--background-color);
-    color: var(--page-text-color);
+    background-color: var(--bg-color-projects);
+    color: var(--color-text);
+}
+
+/*Header*/
+.header {
+    background-color: var(--bg-color-header);
+}
+.container {
+    width: 1400px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 36px 0;
+}
+.container-header {
+
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+.title {
+    font-style: 600;
+    font-size: 56px;
+    line-height: 1.22;
+}
+.header-logo {
+    display: block;
+    margin-right: 433px;
+}
+.header-list {
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+}
+.nav-item {
+    outline: 1px solid tomato;
+}
+.nav-item:not(:first-child) {
+    margin-left: 30px;
+}
+
+/*Hero*/
+.text-hero {
+
+}
+.hero-box {
+    display: inline-flex;
 }
