@@ -376,7 +376,6 @@ align-items: center;
     padding: 0;
     padding-top: 106px;
     padding-bottom: 35px;
-    outline: 1px solid black;
 }
 .footer-navigation {
     display: flex;
@@ -418,6 +417,23 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-content: center;
+    margin-bottom: 73px;
+}
+.footer-item:not(:first-child) {
+    margin-left: 26px;
+}
+
+.footer-lable:hover svg {
+    fill: var(--bg-color-accent);
+    background-color: var(--color-text);
+    border-radius: 50%;
+    border-color: var(--bg-color-accent);
+}
+.footer-lable:focus svg {
+    fill: var(--bg-color-accent);
+    background-color: var(--color-text);
+    border-radius: 50%;
+    border-color: var(--bg-color-accent);
 }
 .copyright {
 }
