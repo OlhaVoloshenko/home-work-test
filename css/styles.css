@@ -383,6 +383,10 @@ align-items: center;
     align-content: center;
     margin-bottom: 43px;
 }
+.footer-link:hover,
+.footer-link:focus {
+    color: var(--bg-color-accent);
+}
 .footer-menu,
 .footer-menu2 {
     display: flex;
@@ -393,10 +397,12 @@ align-items: center;
 .contacts-navigation-item2:not(:first-child) {
     margin-left: 54px;
 }
-.projects-link {
+.footer-link {
     font-size: 14px;
     font-weight: 600;
     line-height: 1.4;
+    text-decoration: none;
+    color: var(--color-text);
 }
 .logo {
     display: block;
@@ -435,4 +441,11 @@ align-items: center;
     border-color: var(--bg-color-accent);
 }
 .copyright {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.40;
+    text-align: center;
+}
+.privacy {
+    margin-left: 14px;
 }
